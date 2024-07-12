@@ -1,0 +1,3 @@
+<launch>
+    <node name="control_node" pkg="hat_vcu" type="control_node" output="screen" />
+</launch>
