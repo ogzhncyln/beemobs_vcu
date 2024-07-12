@@ -84,6 +84,11 @@ int main(int argc, char **argv)
     vehicle_control = nh.advertise<smart_can_msgs::rc_unittoOmux>("/beemobs/rc_unittoOmux",1);
     brake_pub = nh.advertise<smart_can_msgs::AUTONOMOUS_BrakePedalControl>("/beemobs/AUTONOMOUS_BrakePedalControl",1);
     //hand_brake_pub = nh.advertise<smart_can_msgs::AUTONOMOUS_BrakePedalControl>("/beemobs/AUTONOMOUS_BrakePedalControl",1);
+
+    smart_can_msgs::rc_unittoOmux control_msg;
+    control_msg.RC_Ignition = 1;
+    vehicle_control.publish(control_msg);
+
     ros::spin();
 
     return 0;
