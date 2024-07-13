@@ -4,18 +4,28 @@
 #include <smart_can_msgs/rc_unittoOmux.h>
 #include <smart_can_msgs/AUTONOMOUS_BrakePedalControl.h>
 #include <smart_can_msgs/FB_VehicleSpeed.h>
+#include <std_msgs/Int32.h>
 
 ros::Subscriber ack_sub;
 ros::Subscriber spd_sub;
+ros::Subscriber signal_sub;
 ros::Publisher steering_pub;
 ros::Publisher throttle_pub;
 ros::Publisher brake_pub;
 ros::Publisher vehicle_control;
+ros::Publisher signal_pub;
 
 uint8_t ignition = 0;
 uint8_t gear=0;
 uint8_t spd=0;
+uint8_t signal;
+
 bool brake = false;
+
+void signal_callback(const std_msgs::Int32::ConstPtr &msg)
+{
+    signal = msg->data;
+}
 
 void spd_callback(const smart_can_msgs::FB_VehicleSpeed::ConstPtr &msg)
 {
@@ -49,7 +59,7 @@ void ack_callback(const ackermann_msgs::AckermannDrive::ConstPtr &msg)
         brake_msg.AUTONOMOUS_BrakeMotor_Voltage = 1;
         brake_msg.AUTONOMOUS_BrakePedalMotor_ACC = 10000;
         brake_msg.AUTONOMOUS_BrakePedalMotor_EN = 1;
-        brake_msg.AUTONOMOUS_BrakePedalMotor_PER = 95;
+        brake_msg.AUTONOMOUS_BrakePedalMotor_PER = 60;
     }
     else
     {
@@ -59,10 +69,11 @@ void ack_callback(const ackermann_msgs::AckermannDrive::ConstPtr &msg)
         brake_msg.AUTONOMOUS_BrakePedalMotor_PER = 0;
     }
 
-    steering_msg.data = -msg->steering_angle / 3.14 * 180.0 / 2.0;
+    steering_msg.data = -msg->steering_angle / 3.14 * 180.0;
     throttle_msg.data = abs(msg->speed * 20.0);
     control_msg.RC_Ignition = ignition;
     control_msg.RC_SelectionGear = gear;
+    control_msg.RC_SignalStatus = signal;
 
     vehicle_control.publish(control_msg);
     steering_pub.publish(steering_msg);
@@ -79,6 +90,7 @@ int main(int argc, char **argv)
 
     ack_sub = nh.subscribe<ackermann_msgs::AckermannDrive>("/ackermann_cmd",1,ack_callback);
     spd_sub = nh.subscribe<smart_can_msgs::FB_VehicleSpeed>("/beemobs/FB_VehicleSpeed",1,spd_callback);
+    signal_sub = nh.subscribe<std_msgs::Int32>("/signal_status",1,signal_callback);
     steering_pub = nh.advertise<std_msgs::Float64>("/beemobs/steering_target_value",1);
     throttle_pub = nh.advertise<std_msgs::Float64>("/beemobs/speed_target_value",1);
     vehicle_control = nh.advertise<smart_can_msgs::rc_unittoOmux>("/beemobs/rc_unittoOmux",1);

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Site BuildName="(empty)"
-	BuildStamp="20240712-0728-Experimental"
+	BuildStamp="20240713-0626-Experimental"
 	Name="oguzhan-ABRA-A5-V16-6"
 	Generator="ctest-3.16.3"
 	CompilerName="/usr/bin/c++"
@@ -21,14 +21,14 @@
 	TotalVirtualMemory="2047"
 	TotalPhysicalMemory="15685"
 	LogicalProcessorsPerPhysical="2"
-	ProcessorClockFrequency="2400"
+	ProcessorClockFrequency="4000"
 	>
 	<Testing>
-		<StartDateTime>Jul 12 23:11 +03</StartDateTime>
-		<StartTestTime>1720815074</StartTestTime>
+		<StartDateTime>Jul 13 09:29 +03</StartDateTime>
+		<StartTestTime>1720852145</StartTestTime>
 		<TestList/>
-		<EndDateTime>Jul 12 23:11 +03</EndDateTime>
-		<EndTestTime>1720815074</EndTestTime>
+		<EndDateTime>Jul 13 09:29 +03</EndDateTime>
+		<EndTestTime>1720852145</EndTestTime>
 		<ElapsedMinutes>0</ElapsedMinutes>
 	</Testing>
 </Site>
