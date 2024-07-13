@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.0.2)
-project(hat_vcu)
+project(beemobs_vcu)
 
 ## Compile as C++11, supported in ROS Kinetic and newer
 # add_compile_options(-std=c++11)
@@ -204,9 +204,6 @@ include_directories(
 
 ## Add folders to be run by python nosetests
 # catkin_add_nosetests(test)
-
-add_executable(test_node src/vehicle_test.cpp)
-target_link_libraries(test_node ${catkin_LIBRARIES})
 
 add_executable(control_node src/vehicle_control.cpp)
 target_link_libraries(control_node ${catkin_LIBRARIES})

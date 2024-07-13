@@ -131,7 +131,7 @@
 				"role" : "flags"
 			},
 			{
-				"fragment" : "-Wl,-rpath,/home/oguzhan/hat_ws/src/hat_vcu/build/gtest/lib",
+				"fragment" : "-Wl,-rpath,/home/hilal/hazırarac_ws/src/beemobs_vcu/build/gtest/lib",
 				"role" : "libraries"
 			},
 			{

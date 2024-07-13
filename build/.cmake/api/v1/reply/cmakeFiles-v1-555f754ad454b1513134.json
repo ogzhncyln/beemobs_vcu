@@ -572,15 +572,15 @@
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/oguzhan/hat_ws/devel/share/smart_can_msgs/cmake/smart_can_msgsConfig-version.cmake"
+			"path" : "/home/hilal/otonomsurus_ws/devel/share/smart_can_msgs/cmake/smart_can_msgsConfig-version.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/oguzhan/hat_ws/devel/share/smart_can_msgs/cmake/smart_can_msgsConfig.cmake"
+			"path" : "/home/hilal/otonomsurus_ws/devel/share/smart_can_msgs/cmake/smart_can_msgsConfig.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/oguzhan/hat_ws/devel/share/smart_can_msgs/cmake/smart_can_msgs-msg-extras.cmake"
+			"path" : "/home/hilal/otonomsurus_ws/devel/share/smart_can_msgs/cmake/smart_can_msgs-msg-extras.cmake"
 		},
 		{
 			"isGenerated" : true,
@@ -734,8 +734,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/home/oguzhan/hat_ws/src/hat_vcu/build",
-		"source" : "/home/oguzhan/hat_ws/src/hat_vcu"
+		"build" : "/home/hilal/hazırarac_ws/src/beemobs_vcu/build",
+		"source" : "/home/hilal/hazırarac_ws/src/beemobs_vcu"
 	},
 	"version" : 
 	{

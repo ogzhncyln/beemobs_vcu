@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Site BuildName="(empty)"
 	BuildStamp="20240713-0626-Experimental"
-	Name="oguzhan-ABRA-A5-V16-6"
+	Name="lethe"
 	Generator="ctest-3.16.3"
 	CompilerName="/usr/bin/c++"
 	CompilerVersion="9.4.0"
 	OSName="Linux"
-	Hostname="oguzhan-ABRA-A5-V16-6"
+	Hostname="lethe"
 	OSRelease="5.15.0-113-generic"
 	OSVersion="#123~20.04.1-Ubuntu SMP Wed Jun 12 17:33:13 UTC 2024"
 	OSPlatform="x86_64"
@@ -14,21 +14,21 @@
 	VendorString="GenuineIntel"
 	VendorID="Intel Corporation"
 	FamilyID="6"
-	ModelID="165"
-	ProcessorCacheSize="8192"
-	NumberOfLogicalCPU="8"
-	NumberOfPhysicalCPU="4"
+	ModelID="141"
+	ProcessorCacheSize="24576"
+	NumberOfLogicalCPU="16"
+	NumberOfPhysicalCPU="8"
 	TotalVirtualMemory="2047"
-	TotalPhysicalMemory="15685"
+	TotalPhysicalMemory="15767"
 	LogicalProcessorsPerPhysical="2"
-	ProcessorClockFrequency="4000"
+	ProcessorClockFrequency="2300"
 	>
 	<Testing>
-		<StartDateTime>Jul 13 09:29 +03</StartDateTime>
-		<StartTestTime>1720852145</StartTestTime>
+		<StartDateTime>Jul 13 12:11 +03</StartDateTime>
+		<StartTestTime>1720861884</StartTestTime>
 		<TestList/>
-		<EndDateTime>Jul 13 09:29 +03</EndDateTime>
-		<EndTestTime>1720852145</EndTestTime>
+		<EndDateTime>Jul 13 12:11 +03</EndDateTime>
+		<EndTestTime>1720861884</EndTestTime>
 		<ElapsedMinutes>0</ElapsedMinutes>
 	</Testing>
 </Site>

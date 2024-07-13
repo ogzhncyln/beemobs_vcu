@@ -3,7 +3,7 @@
 	{
 		"generator" : 
 		{
-			"name" : "Unix Makefiles"
+			"name" : "Ninja"
 		},
 		"paths" : 
 		{
@@ -25,7 +25,7 @@
 	"objects" : 
 	[
 		{
-			"jsonFile" : "codemodel-v2-9173452ab12148f7fbdf.json",
+			"jsonFile" : "codemodel-v2-c23b49b19366330e2d6e.json",
 			"kind" : "codemodel",
 			"version" : 
 			{
@@ -34,7 +34,7 @@
 			}
 		},
 		{
-			"jsonFile" : "cache-v2-4d78172b41750d3c8792.json",
+			"jsonFile" : "cache-v2-d2b5c2cc013b3c88ef24.json",
 			"kind" : "cache",
 			"version" : 
 			{
@@ -43,7 +43,7 @@
 			}
 		},
 		{
-			"jsonFile" : "cmakeFiles-v1-74140aed4c7c162f3060.json",
+			"jsonFile" : "cmakeFiles-v1-555f754ad454b1513134.json",
 			"kind" : "cmakeFiles",
 			"version" : 
 			{
@@ -80,7 +80,7 @@
 				"responses" : 
 				[
 					{
-						"jsonFile" : "cache-v2-4d78172b41750d3c8792.json",
+						"jsonFile" : "cache-v2-d2b5c2cc013b3c88ef24.json",
 						"kind" : "cache",
 						"version" : 
 						{
@@ -89,7 +89,7 @@
 						}
 					},
 					{
-						"jsonFile" : "codemodel-v2-9173452ab12148f7fbdf.json",
+						"jsonFile" : "codemodel-v2-c23b49b19366330e2d6e.json",
 						"kind" : "codemodel",
 						"version" : 
 						{
@@ -101,7 +101,7 @@
 						"error" : "unknown request kind 'toolchains'"
 					},
 					{
-						"jsonFile" : "cmakeFiles-v1-74140aed4c7c162f3060.json",
+						"jsonFile" : "cmakeFiles-v1-555f754ad454b1513134.json",
 						"kind" : "cmakeFiles",
 						"version" : 
 						{

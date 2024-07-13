@@ -47,7 +47,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/oguzhan/hat_ws/src/hat_vcu/build/catkin_generated/env_cached.sh"
+			"value" : "/home/hilal/hazırarac_ws/src/beemobs_vcu/build/catkin_generated/env_cached.sh"
 		},
 		{
 			"name" : "CATKIN_PACKAGE_PREFIX",
@@ -95,7 +95,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/oguzhan/hat_ws/src/hat_vcu/build/test_results"
+			"value" : "/home/hilal/hazırarac_ws/src/beemobs_vcu/build/test_results"
 		},
 		{
 			"name" : "CMAKE_ADDR2LINE",
@@ -151,7 +151,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/oguzhan/hat_ws/src/hat_vcu/build"
+			"value" : "/home/hilal/hazırarac_ws/src/beemobs_vcu/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -188,22 +188,6 @@
 			],
 			"type" : "INTERNAL",
 			"value" : "3"
-		},
-		{
-			"name" : "CMAKE_COLOR_MAKEFILE",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Enable/Disable color output during build."
-				}
-			],
-			"type" : "BOOL",
-			"value" : "ON"
 		},
 		{
 			"name" : "CMAKE_COMMAND",
@@ -643,7 +627,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "Unix Makefiles"
+			"value" : "Ninja"
 		},
 		{
 			"name" : "CMAKE_GENERATOR_INSTANCE",
@@ -739,7 +723,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/oguzhan/hat_ws/src/hat_vcu"
+			"value" : "/home/hilal/hazırarac_ws/src/beemobs_vcu"
 		},
 		{
 			"name" : "CMAKE_INSTALL_BINDIR",
@@ -1047,11 +1031,11 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "Path to a program."
+					"value" : "Program used to build from build.ninja files."
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/make"
+			"value" : "/usr/bin/ninja"
 		},
 		{
 			"name" : "CMAKE_MODULE_LINKER_FLAGS",
@@ -1239,7 +1223,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "hat_vcu"
+			"value" : "beemobs_vcu"
 		},
 		{
 			"name" : "CMAKE_PROJECT_VERSION",
@@ -1699,7 +1683,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/oguzhan/hat_ws/src/hat_vcu/build/gmock"
+			"value" : "/home/hilal/hazırarac_ws/src/beemobs_vcu/build/gmock"
 		},
 		{
 			"name" : "GMOCK_FROM_SOURCE_MAIN_LIBRARIES",
@@ -1835,7 +1819,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/oguzhan/hat_ws/src/hat_vcu/build/gtest"
+			"value" : "/home/hilal/hazırarac_ws/src/beemobs_vcu/build/gtest"
 		},
 		{
 			"name" : "GTEST_FROM_SOURCE_MAIN_LIBRARIES",
@@ -2075,7 +2059,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "oguzhan-ABRA-A5-V16-6"
+			"value" : "lethe"
 		},
 		{
 			"name" : "UBUNTU",
@@ -2162,6 +2146,30 @@
 			"value" : "/usr/src/gtest/src/gtest.cc"
 		},
 		{
+			"name" : "beemobs_vcu_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/hilal/hazırarac_ws/src/beemobs_vcu/build"
+		},
+		{
+			"name" : "beemobs_vcu_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/hilal/hazırarac_ws/src/beemobs_vcu"
+		},
+		{
 			"name" : "catkin_DIR",
 			"properties" : 
 			[
@@ -2195,7 +2203,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/oguzhan/hat_ws/src/hat_vcu/build/gtest/googlemock"
+			"value" : "/home/hilal/hazırarac_ws/src/beemobs_vcu/build/gtest/googlemock"
 		},
 		{
 			"name" : "gmock_LIB_DEPENDS",
@@ -2259,7 +2267,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/oguzhan/hat_ws/src/hat_vcu/build/gtest"
+			"value" : "/home/hilal/hazırarac_ws/src/beemobs_vcu/build/gtest"
 		},
 		{
 			"name" : "googletest-distribution_SOURCE_DIR",
@@ -2283,7 +2291,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/oguzhan/hat_ws/src/hat_vcu/build/gtest/googletest"
+			"value" : "/home/hilal/hazırarac_ws/src/beemobs_vcu/build/gtest/googletest"
 		},
 		{
 			"name" : "gtest_SOURCE_DIR",
@@ -2399,7 +2407,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/oguzhan/hat_ws/src/hat_vcu/build"
+			"value" : "/home/hilal/hazırarac_ws/src/beemobs_vcu/build"
 		},
 		{
 			"name" : "hat_vcu_SOURCE_DIR",
@@ -2411,7 +2419,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/oguzhan/hat_ws/src/hat_vcu"
+			"value" : "/home/hilal/hazırarac_ws/src/beemobs_vcu"
 		},
 		{
 			"name" : "lib",
@@ -2531,7 +2539,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "/home/oguzhan/hat_ws/devel/share/smart_can_msgs/cmake"
+			"value" : "/home/hilal/otonomsurus_ws/devel/share/smart_can_msgs/cmake"
 		},
 		{
 			"name" : "std_msgs_DIR",

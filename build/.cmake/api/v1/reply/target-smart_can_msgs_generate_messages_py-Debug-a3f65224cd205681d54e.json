@@ -9,7 +9,7 @@
 		],
 		"files" : 
 		[
-			"/home/oguzhan/hat_ws/devel/share/smart_can_msgs/cmake/smart_can_msgsConfig.cmake",
+			"/home/hilal/otonomsurus_ws/devel/share/smart_can_msgs/cmake/smart_can_msgsConfig.cmake",
 			"/opt/ros/noetic/share/catkin/cmake/catkinConfig.cmake",
 			"CMakeLists.txt"
 		],

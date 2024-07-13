@@ -1,7 +1,7 @@
 prefix=/home/hilal/hazırarac_ws/src/beemobs_vcu/build/devel
 
-Name: hat_vcu
-Description: Description of hat_vcu
+Name: beemobs_vcu
+Description: Description of beemobs_vcu
 Version: 0.0.0
 Cflags: 
 Libs: -L${prefix}/lib 

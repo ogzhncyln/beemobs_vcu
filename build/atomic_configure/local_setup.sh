@@ -3,7 +3,7 @@
 
 # since this file is sourced either use the provided _CATKIN_SETUP_DIR
 # or fall back to the destination set at configure time
-: ${_CATKIN_SETUP_DIR:=/home/oguzhan/hat_ws/src/hat_vcu/build/devel}
+: ${_CATKIN_SETUP_DIR:=/home/hilal/hazırarac_ws/src/beemobs_vcu/build/devel}
 CATKIN_SETUP_UTIL_ARGS="--extend --local"
 . "$_CATKIN_SETUP_DIR/setup.sh"
 unset CATKIN_SETUP_UTIL_ARGS

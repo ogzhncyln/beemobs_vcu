@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "devel/lib/hat_vcu/control_node"
+			"path" : "devel/lib/beemobs_vcu/control_node"
 		}
 	],
 	"backtrace" : 1,
@@ -35,7 +35,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 211,
+				"line" : 208,
 				"parent" : 0
 			},
 			{
@@ -141,14 +141,14 @@
 				},
 				{
 					"backtrace" : 15,
-					"define" : "ROS_PACKAGE_NAME=\"hat_vcu\""
+					"define" : "ROS_PACKAGE_NAME=\"beemobs_vcu\""
 				}
 			],
 			"includes" : 
 			[
 				{
 					"backtrace" : 16,
-					"path" : "/home/oguzhan/hat_ws/devel/include"
+					"path" : "/home/hilal/otonomsurus_ws/devel/include"
 				},
 				{
 					"backtrace" : 16,

@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "gtest/lib/libgmockd.so"
+			"path" : "gtest/lib/libgmock_maind.so"
 		}
 	],
 	"backtrace" : 3,
@@ -30,7 +30,7 @@
 			{
 				"command" : 2,
 				"file" : 1,
-				"line" : 101,
+				"line" : 103,
 				"parent" : 0
 			},
 			{
@@ -48,7 +48,7 @@
 			{
 				"command" : 3,
 				"file" : 1,
-				"line" : 102,
+				"line" : 104,
 				"parent" : 0
 			},
 			{
@@ -91,17 +91,19 @@
 					"define" : "GTEST_CREATE_SHARED_LIBRARY=1"
 				},
 				{
-					"define" : "gmock_EXPORTS"
+					"define" : "gmock_main_EXPORTS"
 				}
 			],
 			"includes" : 
 			[
 				{
 					"backtrace" : 6,
+					"isSystem" : true,
 					"path" : "/usr/src/googletest/googlemock/include"
 				},
 				{
 					"backtrace" : 6,
+					"isSystem" : true,
 					"path" : "/usr/src/googletest/googlemock"
 				},
 				{
@@ -126,10 +128,14 @@
 	[
 		{
 			"backtrace" : 4,
+			"id" : "gmock::@e3f94eedc5dc07131386"
+		},
+		{
+			"backtrace" : 4,
 			"id" : "gtest::@b738d542747fbb7ea6e3"
 		}
 	],
-	"id" : "gmock::@e3f94eedc5dc07131386",
+	"id" : "gmock_main::@e3f94eedc5dc07131386",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -139,11 +145,15 @@
 				"role" : "flags"
 			},
 			{
-				"fragment" : "-Wl,-rpath,/home/oguzhan/hat_ws/src/hat_vcu/build/gtest/lib",
+				"fragment" : "-Wl,-rpath,/home/hilal/hazırarac_ws/src/beemobs_vcu/build/gtest/lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 4,
+				"fragment" : "../lib/libgmockd.so",
+				"role" : "libraries"
+			},
+			{
 				"fragment" : "../lib/libgtestd.so",
 				"role" : "libraries"
 			},
@@ -154,8 +164,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "gmock",
-	"nameOnDisk" : "libgmockd.so",
+	"name" : "gmock_main",
+	"nameOnDisk" : "libgmock_maind.so",
 	"paths" : 
 	{
 		"build" : "gtest/googlemock",
@@ -176,7 +186,7 @@
 		{
 			"backtrace" : 3,
 			"compileGroupIndex" : 0,
-			"path" : "/usr/src/googletest/googlemock/src/gmock-all.cc",
+			"path" : "/usr/src/googletest/googlemock/src/gmock_main.cc",
 			"sourceGroupIndex" : 0
 		}
 	],

@@ -67,8 +67,8 @@ set(hat_vcu_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(hat_vcu_SOURCE_PREFIX /home/oguzhan/hat_ws/src/hat_vcu)
-  set(hat_vcu_DEVEL_PREFIX /home/oguzhan/hat_ws/src/hat_vcu/build/devel)
+  set(hat_vcu_SOURCE_PREFIX /home/hilal/hazırarac_ws/src/beemobs_vcu)
+  set(hat_vcu_DEVEL_PREFIX /home/hilal/hazırarac_ws/src/beemobs_vcu/build/devel)
   set(hat_vcu_INSTALL_PREFIX "")
   set(hat_vcu_PREFIX ${hat_vcu_DEVEL_PREFIX})
 else()
@@ -110,7 +110,7 @@ if(NOT " " STREQUAL " ")
         message(FATAL_ERROR "Project 'hat_vcu' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'hat_vcu' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/oguzhan/hat_ws/src/hat_vcu/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'hat_vcu' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/hilal/hazırarac_ws/src/beemobs_vcu/${idir}'.  ${_report}")
     endif()
     _list_append_unique(hat_vcu_INCLUDE_DIRS ${include})
   endforeach()
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/oguzhan/hat_ws/src/hat_vcu/build/devel/lib;/home/oguzhan/ros_drone_ws/devel/lib;/home/oguzhan/ros_unity_ws/devel/lib;/home/oguzhan/iglio_ws/devel/lib;/home/oguzhan/hat_ws/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/hilal/hazırarac_ws/src/beemobs_vcu/build/devel/lib;/home/hilal/otonomsurus_ws/devel/lib;/home/hilal/hazırarac_ws/devel/lib;/home/hilal/catkin_ws/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

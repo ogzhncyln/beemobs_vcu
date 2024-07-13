@@ -3,6 +3,6 @@ CATKIN_PACKAGE_PREFIX = ""
 PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
-PROJECT_NAME = "hat_vcu"
+PROJECT_NAME = "beemobs_vcu"
 PROJECT_SPACE_DIR = "/usr/local"
 PROJECT_VERSION = "0.0.0"

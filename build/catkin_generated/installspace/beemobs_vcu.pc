@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: beemobs_vcu
+Description: Description of beemobs_vcu
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
